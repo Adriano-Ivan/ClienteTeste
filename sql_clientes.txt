@@ -1,0 +1,3 @@
+create table tb_clientes(codigo int not null auto_increment, idade int not null, 
+nome varchar(75) not null, cpf varchar(14) not null, telefone varchar(19) not null,
+email varchar(60) not null, numCartaoExclusivo int not null, primary key(codigo));
